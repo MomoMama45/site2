@@ -1,51 +1,66 @@
-.header {
-    width: 100%;
-    height: 80px;
-    display: block;
-    background-color: #212529;
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
-.inner {
-    width: 1000px;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
+header {
+    width: 100vw;
+    height: 100px;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: "Roboto";
 }
 
-.logo {
+header section {
+    width: 1300px;
     height: 100%;
-    display: table;
     float: left;
 }
 
-.logo h1 {
-    color: white;
-    height: 100%;
-    display: table-cell;
+header h1 {
+    display: table;
+    margin-top: 25px;
+    margin-left: 50px;
+    float: left;
     vertical-align: middle;
-    font-family: "Roboto";
     font-size: 32px;
     font-weight: 200;
 }
 
-.nav {
+header nav {
     float: right;
     height: 100%;
 }
 
-
-.nav a {
-    height: 100%;
+header nav li {
     display: table;
+    height: 100%;
     float: left;
-    padding: 0px 20px;
+    margin-right: 30px;
 }
 
-.nav a li {
+header nav li:last-of-type {
+    margin-right: 0;
+}
+
+header nav span {
     display: table-cell;
     vertical-align: middle;
-    height: 100%;
-    color: white;
-    font-family: "Roboto";
-    font-size: 16px;
+}
+
+header nav a {
+    color: #101010;
+}
+
+header nav a {
+    color: #101010;
+    background-color: #00b4d8;
+    color: #edf2f4;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+header nav a:hover {
+    filter: brightness(1.05);
 }
