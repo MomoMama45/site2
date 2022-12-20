@@ -75,6 +75,20 @@ h1 {
     margin-left: 10%;
 }
 
+.btn {
+    color: #101010;
+    background-color: #00b4d8;
+    color: #edf2f4;
+    padding: 20px 60px;
+    border-radius: 2px;
+    float: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 100;
+}
+
 .columns {
     float: left;
     width: 33.3%;
